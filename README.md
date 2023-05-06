@@ -1,6 +1,8 @@
 # Automate.Jobs 🤖
 
-Automate.Jobs is a core automation framework for our web3 projects. We use [n8n](https://n8n.io/) as the automation engine, which allows us to easily connect our credentials and services. Additionally, we use [Strapi](https://strapi.io/) as a headless CMS to generate and publish content to our sites.
+Automate.Jobs is a core automation framework for our web3 projects. We use [n8n](https://n8n.io/) as the automation
+engine, which allows us to easily connect our credentials and services. Additionally, we
+use [Strapi](https://strapi.io/) as a headless CMS to generate and publish content to our sites.
 
 ## Features 🚀
 
@@ -8,6 +10,17 @@ Automate.Jobs is a core automation framework for our web3 projects. We use [n8n]
 - Easy to use automation framework.
 - Generates and publishes content to our sites through Strapi.
 - Highly customizable.
+
+## Deployment 📦
+
+This is a CDK project, so you can deploy it using the following commands:
+
+* `npm run build`   compile typescript to js
+* `npm run watch`   watch for changes and compile
+* `npm run test`    perform the jest unit tests
+* `cdk deploy`      deploy this stack to your default AWS account/region
+* `cdk diff`        compare deployed stack with current state
+* `cdk synth`       emits the synthesized CloudFormation template
 
 ## Getting Started 🛠️
 
@@ -19,27 +32,15 @@ To get started with Automate.Jobs, follow these steps:
 
 ## Contributing 🤝
 
-We welcome contributions to Automate.Jobs! To contribute, simply fork this repository, make your changes, and submit a pull request. Please ensure that your changes are well-documented and tested.
+We welcome contributions to Automate.Jobs! To contribute, simply fork this repository, make your changes, and submit a
+pull request. Please ensure that your changes are well-documented and tested.
 
 ## License 📝
 
-Automate.Jobs is licensed under the [MIT License](LICENSE). This means that you are free to use, modify, and distribute this software for any purpose, as long as you include a copy of the license and any copyright notices with the code.
+Automate.Jobs is licensed under the [MIT License](LICENSE). This means that you are free to use, modify, and distribute
+this software for any purpose, as long as you include a copy of the license and any copyright notices with the code.
 
 ## Contact 📬
 
-If you have any questions or feedback about Automate.Jobs, please feel free to contact us at [contact@pox.me](contact@pox.me). We'd love to hear from you!
-
-# Welcome to your CDK TypeScript project
-
-This is a blank project for CDK development with TypeScript.
-
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
-
-## Useful commands
-
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `cdk deploy`      deploy this stack to your default AWS account/region
-* `cdk diff`        compare deployed stack with current state
-* `cdk synth`       emits the synthesized CloudFormation template
+If you have any questions or feedback about Automate.Jobs, please feel free to contact us
+at [contact@pox.me](contact@pox.me). We'd love to hear from you!
